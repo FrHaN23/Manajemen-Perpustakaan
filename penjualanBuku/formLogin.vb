@@ -15,18 +15,11 @@ Public Class formLogin
             dataReader.Read()
             If dataReader.HasRows = True Then
                 formMenu.statusName.Text = dataReader(3).ToString
-                formMenu.StatusLevel.Text = dataReader(1).ToString
+                formMenu.statusLevel.Text = dataReader(1).ToString
                 Me.Hide()
                 formMenu.Show()
-                If formMenu.StatusLevel.Text = "Admin" Then
-                    If formMenu.UserToolStripMenuItem.Enabled = False Then
-                        formMenu.UserToolStripMenuItem.Enabled = True
-                    End If
-                Else
-                    formMenu.UserToolStripMenuItem.Enabled = False
-                End If
             Else
-                MsgBox("Username/Password salah")
+                    MsgBox("Username/Password salah")
             End If
         End If
     End Sub

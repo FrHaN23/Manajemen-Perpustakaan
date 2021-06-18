@@ -9,6 +9,11 @@
     End Sub
 
     Private Sub formMenu_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        If statusLevel IsNot "ADMINISTRATOR" Then
+            UserToolStripMenuItem.Enabled = False
+        Else
+            UserToolStripMenuItem.Enabled = True
+        End If
         formDataBuku.TopLevel = False
         formJenisBuku.TopLevel = False
 
@@ -30,9 +35,5 @@
 
     Private Sub KeluarToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles KeluarToolStripMenuItem.Click
         End
-    End Sub
-
-    Private Sub Panel1_Paint(sender As Object, e As PaintEventArgs) Handles Panel1.Paint
-
     End Sub
 End Class

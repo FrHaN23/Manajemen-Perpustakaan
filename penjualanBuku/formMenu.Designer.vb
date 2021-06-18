@@ -32,15 +32,15 @@ Partial Class formMenu
         Me.LaporanDataBukuToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.LaporanDataJenisBukuToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.PengaturanToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.UserToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.SwitchUserToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.KeluarToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ContextMenuStrip1 = New System.Windows.Forms.ContextMenuStrip(Me.components)
         Me.StatusStrip1 = New System.Windows.Forms.StatusStrip()
         Me.ToolStripStatusLabel1 = New System.Windows.Forms.ToolStripStatusLabel()
         Me.statusName = New System.Windows.Forms.ToolStripStatusLabel()
-        Me.StatusLevel = New System.Windows.Forms.ToolStripStatusLabel()
+        Me.statusLevel = New System.Windows.Forms.ToolStripStatusLabel()
         Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.UserToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.StatusStrip1.SuspendLayout()
         Me.SuspendLayout()
@@ -106,16 +106,10 @@ Partial Class formMenu
         Me.PengaturanToolStripMenuItem.Size = New System.Drawing.Size(80, 20)
         Me.PengaturanToolStripMenuItem.Text = "Pengaturan"
         '
-        'UserToolStripMenuItem
-        '
-        Me.UserToolStripMenuItem.Name = "UserToolStripMenuItem"
-        Me.UserToolStripMenuItem.Size = New System.Drawing.Size(135, 22)
-        Me.UserToolStripMenuItem.Text = "User"
-        '
         'SwitchUserToolStripMenuItem
         '
         Me.SwitchUserToolStripMenuItem.Name = "SwitchUserToolStripMenuItem"
-        Me.SwitchUserToolStripMenuItem.Size = New System.Drawing.Size(135, 22)
+        Me.SwitchUserToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.SwitchUserToolStripMenuItem.Text = "Switch User"
         '
         'KeluarToolStripMenuItem
@@ -131,7 +125,7 @@ Partial Class formMenu
         '
         'StatusStrip1
         '
-        Me.StatusStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripStatusLabel1, Me.statusName, Me.StatusLevel})
+        Me.StatusStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripStatusLabel1, Me.statusName, Me.statusLevel})
         Me.StatusStrip1.Location = New System.Drawing.Point(0, 428)
         Me.StatusStrip1.Name = "StatusStrip1"
         Me.StatusStrip1.Size = New System.Drawing.Size(800, 22)
@@ -146,14 +140,14 @@ Partial Class formMenu
         'statusName
         '
         Me.statusName.Name = "statusName"
-        Me.statusName.Size = New System.Drawing.Size(119, 17)
-        Me.statusName.Text = "ToolStripStatusLabel2"
+        Me.statusName.Size = New System.Drawing.Size(30, 17)
+        Me.statusName.Text = "ABC"
         '
-        'StatusLevel
+        'statusLevel
         '
-        Me.StatusLevel.Name = "StatusLevel"
-        Me.StatusLevel.Size = New System.Drawing.Size(119, 17)
-        Me.StatusLevel.Text = "ToolStripStatusLabel3"
+        Me.statusLevel.Name = "statusLevel"
+        Me.statusLevel.Size = New System.Drawing.Size(30, 17)
+        Me.statusLevel.Text = "ABC"
         '
         'Panel1
         '
@@ -162,6 +156,12 @@ Partial Class formMenu
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(800, 404)
         Me.Panel1.TabIndex = 3
+        '
+        'UserToolStripMenuItem
+        '
+        Me.UserToolStripMenuItem.Name = "UserToolStripMenuItem"
+        Me.UserToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.UserToolStripMenuItem.Text = "User"
         '
         'formMenu
         '
@@ -196,10 +196,10 @@ Partial Class formMenu
     Friend WithEvents StatusStrip1 As StatusStrip
     Friend WithEvents ToolStripStatusLabel1 As ToolStripStatusLabel
     Friend WithEvents statusName As ToolStripStatusLabel
-    Friend WithEvents StatusLevel As ToolStripStatusLabel
+    Friend WithEvents statusLevel As ToolStripStatusLabel
     Friend WithEvents LaporanDataBukuToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents LaporanDataJenisBukuToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents UserToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents SwitchUserToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents Panel1 As Panel
+    Friend WithEvents UserToolStripMenuItem As ToolStripMenuItem
 End Class

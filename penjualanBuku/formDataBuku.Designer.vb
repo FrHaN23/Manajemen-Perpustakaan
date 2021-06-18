@@ -54,7 +54,7 @@ Partial Class formDataBuku
         'txtKodeBuku
         '
         Me.txtKodeBuku.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtKodeBuku.Location = New System.Drawing.Point(132, 40)
+        Me.txtKodeBuku.Location = New System.Drawing.Point(132, 23)
         Me.txtKodeBuku.MaxLength = 3
         Me.txtKodeBuku.Name = "txtKodeBuku"
         Me.txtKodeBuku.Size = New System.Drawing.Size(80, 26)
@@ -64,7 +64,7 @@ Partial Class formDataBuku
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(25, 43)
+        Me.Label1.Location = New System.Drawing.Point(25, 26)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(87, 20)
         Me.Label1.TabIndex = 1
@@ -74,7 +74,7 @@ Partial Class formDataBuku
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(25, 75)
+        Me.Label2.Location = New System.Drawing.Point(25, 58)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(47, 20)
         Me.Label2.TabIndex = 3
@@ -83,16 +83,16 @@ Partial Class formDataBuku
         'txtJudul
         '
         Me.txtJudul.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtJudul.Location = New System.Drawing.Point(132, 72)
+        Me.txtJudul.Location = New System.Drawing.Point(132, 55)
         Me.txtJudul.Name = "txtJudul"
-        Me.txtJudul.Size = New System.Drawing.Size(639, 26)
+        Me.txtJudul.Size = New System.Drawing.Size(694, 26)
         Me.txtJudul.TabIndex = 2
         '
         'Label3
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(222, 43)
+        Me.Label3.Location = New System.Drawing.Point(222, 26)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(87, 20)
         Me.Label3.TabIndex = 5
@@ -101,17 +101,17 @@ Partial Class formDataBuku
         'txtNamaJenis
         '
         Me.txtNamaJenis.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtNamaJenis.Location = New System.Drawing.Point(411, 42)
+        Me.txtNamaJenis.Location = New System.Drawing.Point(420, 25)
         Me.txtNamaJenis.Name = "txtNamaJenis"
         Me.txtNamaJenis.ReadOnly = True
-        Me.txtNamaJenis.Size = New System.Drawing.Size(197, 26)
+        Me.txtNamaJenis.Size = New System.Drawing.Size(248, 26)
         Me.txtNamaJenis.TabIndex = 6
         '
         'cmbJenisBuku
         '
         Me.cmbJenisBuku.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cmbJenisBuku.FormattingEnabled = True
-        Me.cmbJenisBuku.Location = New System.Drawing.Point(315, 40)
+        Me.cmbJenisBuku.Location = New System.Drawing.Point(315, 23)
         Me.cmbJenisBuku.Name = "cmbJenisBuku"
         Me.cmbJenisBuku.Size = New System.Drawing.Size(90, 28)
         Me.cmbJenisBuku.TabIndex = 7
@@ -120,7 +120,7 @@ Partial Class formDataBuku
         '
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(25, 109)
+        Me.Label4.Location = New System.Drawing.Point(25, 92)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(87, 20)
         Me.Label4.TabIndex = 9
@@ -129,7 +129,7 @@ Partial Class formDataBuku
         'txtPengarang
         '
         Me.txtPengarang.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtPengarang.Location = New System.Drawing.Point(132, 106)
+        Me.txtPengarang.Location = New System.Drawing.Point(132, 89)
         Me.txtPengarang.Name = "txtPengarang"
         Me.txtPengarang.Size = New System.Drawing.Size(273, 26)
         Me.txtPengarang.TabIndex = 8
@@ -138,7 +138,7 @@ Partial Class formDataBuku
         '
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(25, 152)
+        Me.Label5.Location = New System.Drawing.Point(25, 135)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(68, 20)
         Me.Label5.TabIndex = 11
@@ -147,7 +147,7 @@ Partial Class formDataBuku
         'txtPenerbit
         '
         Me.txtPenerbit.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtPenerbit.Location = New System.Drawing.Point(132, 149)
+        Me.txtPenerbit.Location = New System.Drawing.Point(132, 132)
         Me.txtPenerbit.Name = "txtPenerbit"
         Me.txtPenerbit.Size = New System.Drawing.Size(273, 26)
         Me.txtPenerbit.TabIndex = 10
@@ -156,7 +156,7 @@ Partial Class formDataBuku
         '
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(24, 192)
+        Me.Label6.Location = New System.Drawing.Point(24, 175)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(101, 20)
         Me.Label6.TabIndex = 13
@@ -165,7 +165,7 @@ Partial Class formDataBuku
         'txtJmlhBuku
         '
         Me.txtJmlhBuku.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtJmlhBuku.Location = New System.Drawing.Point(131, 189)
+        Me.txtJmlhBuku.Location = New System.Drawing.Point(131, 172)
         Me.txtJmlhBuku.Name = "txtJmlhBuku"
         Me.txtJmlhBuku.Size = New System.Drawing.Size(80, 26)
         Me.txtJmlhBuku.TabIndex = 12
@@ -174,7 +174,7 @@ Partial Class formDataBuku
         '
         Me.Label7.AutoSize = True
         Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.Location = New System.Drawing.Point(221, 192)
+        Me.Label7.Location = New System.Drawing.Point(221, 175)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(53, 20)
         Me.Label7.TabIndex = 15
@@ -183,7 +183,7 @@ Partial Class formDataBuku
         'txtHarga
         '
         Me.txtHarga.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtHarga.Location = New System.Drawing.Point(280, 189)
+        Me.txtHarga.Location = New System.Drawing.Point(280, 172)
         Me.txtHarga.Name = "txtHarga"
         Me.txtHarga.Size = New System.Drawing.Size(124, 26)
         Me.txtHarga.TabIndex = 14
@@ -192,9 +192,9 @@ Partial Class formDataBuku
         '
         Me.GroupBox1.Controls.Add(Me.txtDeskripsi)
         Me.GroupBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox1.Location = New System.Drawing.Point(414, 104)
+        Me.GroupBox1.Location = New System.Drawing.Point(414, 87)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(357, 124)
+        Me.GroupBox1.Size = New System.Drawing.Size(412, 124)
         Me.GroupBox1.TabIndex = 16
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Deskripsi"
@@ -205,13 +205,13 @@ Partial Class formDataBuku
         Me.txtDeskripsi.Location = New System.Drawing.Point(6, 25)
         Me.txtDeskripsi.Multiline = True
         Me.txtDeskripsi.Name = "txtDeskripsi"
-        Me.txtDeskripsi.Size = New System.Drawing.Size(345, 93)
+        Me.txtDeskripsi.Size = New System.Drawing.Size(397, 93)
         Me.txtDeskripsi.TabIndex = 17
         '
         'bttnSimpan
         '
         Me.bttnSimpan.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.bttnSimpan.Location = New System.Drawing.Point(172, 236)
+        Me.bttnSimpan.Location = New System.Drawing.Point(302, 217)
         Me.bttnSimpan.Name = "bttnSimpan"
         Me.bttnSimpan.Size = New System.Drawing.Size(87, 29)
         Me.bttnSimpan.TabIndex = 17
@@ -221,7 +221,7 @@ Partial Class formDataBuku
         'bttnUbah
         '
         Me.bttnUbah.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.bttnUbah.Location = New System.Drawing.Point(265, 236)
+        Me.bttnUbah.Location = New System.Drawing.Point(395, 217)
         Me.bttnUbah.Name = "bttnUbah"
         Me.bttnUbah.Size = New System.Drawing.Size(87, 29)
         Me.bttnUbah.TabIndex = 18
@@ -231,7 +231,7 @@ Partial Class formDataBuku
         'bttnHapus
         '
         Me.bttnHapus.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.bttnHapus.Location = New System.Drawing.Point(358, 236)
+        Me.bttnHapus.Location = New System.Drawing.Point(488, 217)
         Me.bttnHapus.Name = "bttnHapus"
         Me.bttnHapus.Size = New System.Drawing.Size(87, 29)
         Me.bttnHapus.TabIndex = 19
@@ -241,7 +241,7 @@ Partial Class formDataBuku
         'bttnBatal
         '
         Me.bttnBatal.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.bttnBatal.Location = New System.Drawing.Point(451, 236)
+        Me.bttnBatal.Location = New System.Drawing.Point(581, 217)
         Me.bttnBatal.Name = "bttnBatal"
         Me.bttnBatal.Size = New System.Drawing.Size(87, 29)
         Me.bttnBatal.TabIndex = 20
@@ -251,7 +251,7 @@ Partial Class formDataBuku
         'bttnTutup
         '
         Me.bttnTutup.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.bttnTutup.Location = New System.Drawing.Point(544, 236)
+        Me.bttnTutup.Location = New System.Drawing.Point(674, 217)
         Me.bttnTutup.Name = "bttnTutup"
         Me.bttnTutup.Size = New System.Drawing.Size(87, 29)
         Me.bttnTutup.TabIndex = 21
@@ -261,25 +261,25 @@ Partial Class formDataBuku
         'txtCari
         '
         Me.txtCari.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtCari.Location = New System.Drawing.Point(29, 271)
+        Me.txtCari.Location = New System.Drawing.Point(29, 254)
         Me.txtCari.Name = "txtCari"
-        Me.txtCari.Size = New System.Drawing.Size(739, 26)
+        Me.txtCari.Size = New System.Drawing.Size(797, 26)
         Me.txtCari.TabIndex = 22
         '
         'DataGridView1
         '
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.Location = New System.Drawing.Point(29, 307)
+        Me.DataGridView1.Location = New System.Drawing.Point(29, 290)
         Me.DataGridView1.Name = "DataGridView1"
-        Me.DataGridView1.Size = New System.Drawing.Size(738, 215)
+        Me.DataGridView1.Size = New System.Drawing.Size(797, 236)
         Me.DataGridView1.TabIndex = 23
         '
         'bttnUpdateJenis
         '
         Me.bttnUpdateJenis.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.bttnUpdateJenis.Location = New System.Drawing.Point(614, 40)
+        Me.bttnUpdateJenis.Location = New System.Drawing.Point(674, 24)
         Me.bttnUpdateJenis.Name = "bttnUpdateJenis"
-        Me.bttnUpdateJenis.Size = New System.Drawing.Size(156, 28)
+        Me.bttnUpdateJenis.Size = New System.Drawing.Size(152, 28)
         Me.bttnUpdateJenis.TabIndex = 24
         Me.bttnUpdateJenis.Text = "Update Jenis Buku"
         Me.bttnUpdateJenis.UseVisualStyleBackColor = True
@@ -288,7 +288,7 @@ Partial Class formDataBuku
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(826, 623)
+        Me.ClientSize = New System.Drawing.Size(877, 623)
         Me.Controls.Add(Me.bttnUpdateJenis)
         Me.Controls.Add(Me.DataGridView1)
         Me.Controls.Add(Me.txtCari)

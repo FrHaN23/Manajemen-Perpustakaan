@@ -173,7 +173,10 @@ Public Class formDataBuku
     End Sub
 
     Private Sub bttnUpdateJenis_Click(sender As Object, e As EventArgs) Handles bttnUpdateJenis.Click
+        formMenu.Panel1.Controls.Clear()
+        formMenu.Panel1.Controls.Add(formJenisBuku)
         formJenisBuku.Show()
+        formMenu.Size = formJenisBuku.Size
     End Sub
 
     Private Sub txtKodeBuku_TextChanged(sender As Object, e As EventArgs) Handles txtKodeBuku.TextChanged
